@@ -1,0 +1,465 @@
+@import url("../fonts/roboto/styleSheet.css");
+body {
+  font-family: "Stag Sans", Verdana, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section_1 {
+  background-image: url(../image/Banner_mage.png);
+  background-size: contain;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.logo_img {
+  padding: 50px 0px;
+  border: none;
+}
+
+.logo_img img {
+  background-color: transparent !important;
+  border: none;
+}
+
+.danger_color {
+  color: #fff;
+  background-color: #DD5A6A;
+  border-color: #DD5A6A;
+}
+
+.section1_left h1 {
+  color: #FFFFFF;
+  font-family: Titillium;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 40px;
+  width: 622px;
+  text-align: left;
+}
+
+.section1_left h3 {
+  color: #FFFFFF;
+  font-family: Stag Sans;
+  font-size: 25px;
+  letter-spacing: 3.59px;
+  line-height: 34px;
+  width: 599px;
+  text-align: left;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.newReg_from {
+  width: 50%;
+  background: white;
+  padding: 15px;
+  margin: auto;
+  height: 60vh;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -webkit-box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+          box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+}
+
+.newReg_from .robot_check {
+  display: block;
+  padding: 10px;
+  border: 0.87px solid #D0D0D0;
+  padding-left: 23px;
+}
+
+.newReg_from .robot_check input {
+  margin-left: -16px;
+  margin-top: 0.3rem;
+}
+
+.newReg_from img {
+  float: right;
+  cursor: pointer;
+  position: relative;
+  top: -35px;
+  right: 10px;
+}
+
+.section_2 {
+  position: relative;
+  top: -90px;
+}
+
+.first_p {
+  background-image: radial-gradient(circle at top left, #2EC4B8 -35.15%, #6078EA 100%);
+  border-radius: 4px;
+  height: 95px;
+  padding: 20px;
+}
+
+.first_p p {
+  color: #FFFFFF;
+  font-family: Stag Sans;
+  font-size: 18px;
+  line-height: 26px;
+  width: 545px;
+  text-align: left;
+}
+
+.others_p {
+  padding: 12px 0px;
+}
+
+.others_p p {
+  color: #000000;
+  font-family: Stag Sans;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 300;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+
+.section_3 {
+  font-family: Stag Sans;
+}
+
+.section_3 .section_heading {
+  color: #22B78E;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.section_3 .col_left, .section_3 .col_right {
+  background-color: #F9F9FF;
+  padding: 50px;
+}
+
+.section_3 .col_left h2, .section_3 .col_right h2 {
+  color: #22B78E;
+  font-size: 24px;
+  letter-spacing: 0.99px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.section_3 .col_left hr, .section_3 .col_right hr {
+  border: 1px solid #ECECFF;
+  width: 415px;
+  height: 1px;
+  background-color: #ECECFF;
+}
+
+.section_3 .pediatric_DoctorList .doctors_details h5, .section_3 .adult_DoctorList .doctors_details h5 {
+  color: #1D5AA6;
+  font-size: 22px;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.section_3 .pediatric_DoctorList .doctors_details p:first-of-type, .section_3 .adult_DoctorList .doctors_details p:first-of-type {
+  color: #1D5AA6;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.section_3 .pediatric_DoctorList .doctors_details hr, .section_3 .adult_DoctorList .doctors_details hr {
+  border: 1px solid #22B78E;
+  width: 37px;
+  height: 1px;
+  background-color: #22B78E;
+}
+
+.section_3 .pediatric_DoctorList .doctors_details p:last-of-type, .section_3 .adult_DoctorList .doctors_details p:last-of-type {
+  color: #000000;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.section_3 .pediatric_DoctorList .doctors_details .btn_knowMore, .section_3 .adult_DoctorList .doctors_details .btn_knowMore {
+  background-image: radial-gradient(circle at top left, #2EC4B8 -35.15%, #6078EA 100%);
+  color: #FFFFFF !important;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.section_4 {
+  font-family: Stag Sans;
+  padding-top: 50px;
+}
+
+.section_4 .section_heading {
+  color: #22B78E;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.section_4 .bm_transplant_list li::marker {
+  content: url(../image/hospital.png);
+}
+
+.section_4 .bm_transplant_list li {
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 39px;
+  font-weight: 300;
+}
+
+.section_4 .immune_card {
+  -webkit-box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+          box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+}
+
+.section_4 .immune_card .card-body {
+  height: 150px;
+}
+
+.section_4 .immune_card .card-body .card_img {
+  width: 50px;
+  height: 50px;
+}
+
+.section_4 .immune_card .card-body .card-text {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 300;
+  position: relative;
+  top: 20%;
+}
+
+.section_5 {
+  padding-top: 50px;
+  /*Accordian*/
+}
+
+.section_5 .collapsible-link::before {
+  content: url(../image/caret.png);
+  position: absolute;
+  top: 20%;
+  right: 1rem;
+  display: none;
+  -webkit-transition: all 2s delay;
+  transition: all 2s delay;
+}
+
+.section_5 .collapsible-link::after {
+  content: url(../image/caret.png);
+  position: absolute;
+  /* top: calc(50% - 1px); */
+  top: 20%;
+  right: 1rem;
+  display: block;
+  -webkit-transition: all 2s delay;
+  transition: all 2s delay;
+}
+
+.section_5 .collapsible-link[aria-expanded='true']::after {
+  -webkit-transform: rotate(90deg) translateX(-1px);
+          transform: rotate(90deg) translateX(-1px);
+  display: none;
+}
+
+.section_5 .collapsible-link[aria-expanded='true']::before {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  display: block;
+}
+
+.section_5 #accordionExample {
+  font-family: Stag Sans;
+}
+
+.section_5 #accordionExample .card {
+  border: transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+}
+
+.section_5 #accordionExample .card .card-header {
+  border-bottom: none;
+}
+
+.section_5 #accordionExample .card .card-body ul li::marker {
+  content: url(../image/double-tick-indicator.png);
+}
+
+.section_5 #accordionExample .card .card-body ul li {
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 39px;
+  font-weight: 300;
+}
+
+.section_5 #accordionExample .card .collapsible-link {
+  text-decoration: none;
+  color: #1D5AA6;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: 22px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.section_6 {
+  font-family: Stag Sans;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section_6 .section_heading {
+  color: #22B78E;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.section_6 .card {
+  border: none;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.125);
+          box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.125);
+  height: 249px;
+}
+
+.section_6 .card .card_img {
+  height: 100px;
+  width: 100px;
+}
+
+.section_6 .card .card_img2 {
+  float: right;
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+
+.section_6 .book_btn {
+  background-color: #004498;
+  border-radius: 3.81px;
+  width: 221px;
+  height: 54px;
+  color: #ffffff;
+}
+
+.ster_footer {
+  background-color: #272727;
+  width: 100%;
+  height: 256px;
+}
+
+.ster_footer .image_group {
+  height: 100px;
+  padding-top: 50px;
+}
+
+.ster_footer .image_group img {
+  margin: 0px 2px 0px 2px;
+  cursor: pointer;
+}
+
+.ster_footer hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.ster_footer .up_Arrow {
+  position: absolute;
+  right: 15px;
+  top: 21%;
+  cursor: pointer;
+  padding: 0px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 896px) {
+  .section_1 {
+    background-size: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+  .logo_img {
+    padding: 5px 0px;
+  }
+  .logo_img img {
+    width: 100px;
+  }
+  .section1_left h1 {
+    color: #FFFFFF;
+    font-family: Titillium;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: inherit;
+    width: auto;
+    text-align: left;
+  }
+  .section1_left h3 {
+    color: #FFFFFF;
+    font-family: Stag Sans;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    line-height: 34px;
+    text-align: left;
+    opacity: 0.5;
+    font-weight: 300;
+  }
+  .newReg_from {
+    width: 92%;
+    background: white;
+    padding: 25px;
+    margin: auto;
+    position: absolute;
+    left: 4%;
+    height: 52vh;
+    margin-top: 14px;
+  }
+  .section_2 {
+    position: relative;
+    top: -130px;
+  }
+  .first_p {
+    background-image: radial-gradient(circle at top left, #2EC4B8 -35.15%, #6078EA 100%);
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-top: 15px;
+  }
+  .first_p p {
+    color: #FFFFFF;
+    font-family: Stag Sans;
+    font-size: 18px;
+    line-height: 26px;
+    width: auto;
+    text-align: left;
+  }
+  .section_3 .section_heading {
+    text-align: center;
+  }
+  .section_3 .col_left, .section_3 .col_right {
+    background-color: #F9F9FF;
+    padding: 30px;
+  }
+  .section_3 .col_left hr, .section_3 .col_right hr {
+    border: 1px solid #ECECFF;
+    width: auto;
+    height: 1px;
+    background-color: #ECECFF;
+  }
+  .section_5 #accordionExample .card .collapsible-link {
+    padding-right: 50px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
